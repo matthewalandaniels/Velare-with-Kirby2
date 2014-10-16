@@ -15,7 +15,7 @@
 				class="vid_bg"
 				autoplay="autoplay"
 				loop="loop"
-				poster=""
+				poster="assets/WebHeaderTest.jpg"
 			>
     		<source src="assets/WebHeaderTest.mp4" type="video/mp4">
   		</video>
