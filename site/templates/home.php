@@ -11,9 +11,13 @@
 			<span class="play_triangle"></span>
 			</a>
 
-			<video autoplay="autoplay" id="bgvid" loop="loop">
-    		<source src="assets/WebHeaderTest_1014_h264.mp4"
-        	type="video/mp4">
+			<video 
+				class="vid_bg"
+				autoplay="autoplay"
+				loop="loop"
+				poster=""
+			>
+    		<source src="assets/WebHeaderTest.mp4" type="video/mp4">
   		</video>
 		</div>
 
