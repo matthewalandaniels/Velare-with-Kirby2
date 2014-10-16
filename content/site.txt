@@ -1,0 +1,45 @@
+Title: Velare
+
+----
+
+Description: test description
+
+----
+
+Keywords: keywords,go,here
+
+----
+
+Copyright: Copyright © Velare 2014 All Rights Reserved
+
+----
+
+Email: hello@velare.tv
+
+----
+
+Phone: (888) 555-1234
+
+----
+
+Contact-text: Boop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+----
+
+Newsletter-title: Velare Newsletter
+
+----
+
+Newsletter-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrudquis
+
+----
+
+Twitter-link: https://twitter.com/velarecinema
+
+----
+
+Facebook-link: https://www.facebook.com/pages/Velare-Imaginarium/218778408159380
+
+----
+
+Pinterest-link: http://pinterest.com/velare/

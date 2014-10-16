@@ -1,0 +1,13 @@
+Title: Sasuke Uchiha
+
+----
+
+First-name: Sasuke
+
+----
+
+Last-name: Uchiha
+
+----
+
+Twitter-name: sasuke

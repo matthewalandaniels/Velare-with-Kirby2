@@ -1,0 +1,9 @@
+Title: Tokyo
+
+----
+
+Top: 42
+
+----
+
+Left: 85.5
