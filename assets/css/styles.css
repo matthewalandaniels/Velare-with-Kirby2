@@ -64,6 +64,7 @@ section {
   border-bottom: 1px solid rgba(255,255,255,0.3);
   left: 0;
   right: 0;
+  z-index: 2;
   -webkit-transition: height 0.2s ease, background 0.4s ease;
           transition: height 0.2s ease, background 0.4s ease;
 }
@@ -74,7 +75,7 @@ section {
   right: 0;
   top: 0;
   background-color: #fff;
-  z-index: 100;
+  z-index: 2;
   -webkit-transition: height 0.2s ease, background 0.4s ease;
           transition: height 0.2s ease, background 0.4s ease;
 }
@@ -176,10 +177,21 @@ section {
   background-position: center, center !important;
   background-size: cover !important;
   text-align: center;
-}
-.about_hero,
-.project_hero {
   position: relative;
+  overflow: hidden;
+}
+.home_hero video {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  opacity: 0.9;
 }
 .home_hero_button {
   display: inline-block;
@@ -190,6 +202,7 @@ section {
   border: 1px solid #fff;
   text-transform: uppercase;
   overflow: hidden;
+  z-index: 1;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
 }

@@ -55,6 +55,7 @@ grey_block()
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 	left: 0
 	right: 0
+	z-index: 2
 	transition: height .2s ease,
     					background .4s ease
 
@@ -65,7 +66,7 @@ grey_block()
 	right: 0
 	top: 0
 	background-color: white
-	z-index: 100
+	z-index: 2
 	transition: height .2s ease,
     					background .4s ease
 
@@ -132,9 +133,16 @@ grey_block()
 	background-position: center, center !important
 	background-size: cover !important
 	text-align: center
-
-.about_hero, .project_hero
 	position: relative
+	overflow: hidden
+
+.home_hero
+	video
+		min-height: 100%
+		min-width: 100%
+		align(vertical)
+		left: 0
+		opacity: .9
 
 .home_hero_button
 	display: inline-block
@@ -145,6 +153,7 @@ grey_block()
 	border: 1px solid white
 	text-transform: uppercase
 	overflow: hidden
+	z-index: 1
 	transition: opacity .2s ease
 		.title
 			title_1()
@@ -216,7 +225,6 @@ grey_block()
 		letter-spacing: .3em
 		text-transform: uppercase
 		color: grey
-
 
 .project_hero_button:hover
 	.play_icon

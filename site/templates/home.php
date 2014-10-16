@@ -2,15 +2,7 @@
 
 		<?php snippet('nav') ?>
 
-		<?php 
-			foreach ($page->images() as $page_image) {
-				if (strpos($page_image,'-hero') !== false) {
-					$hero_image = $page_image;
-				}
-			}
-		?>
-				
-		<div class="home_hero" style="background: url('<?php echo $hero_image->url() ?>') no-repeat;	">
+		<div class="home_hero">
 			<a href="<?php echo $page->vimeo_url() ?>" class="home_hero_button">
 			<span class="title"><?php echo $page->reel_title() ?></span>
 			<div class="divider1"></div>
@@ -18,6 +10,11 @@
 			<div class="divider2"></div>
 			<span class="play_triangle"></span>
 			</a>
+
+			<video autoplay="autoplay" id="bgvid" loop="loop">
+    		<source src="assets/WebHeaderTest_1014_h264.mp4"
+        	type="video/mp4">
+  		</video>
 		</div>
 
 		<section class="portfolio">
