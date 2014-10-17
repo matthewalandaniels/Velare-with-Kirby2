@@ -217,6 +217,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/WebHeaderTest.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 933979,
+		"inputAbbreviatedPath": "\/assets\/img\/WebHeaderTest.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/WebHeaderTest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/jquery-1.11.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -417,17 +428,6 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
-		},
-	"\/assets\/WebHeaderTest_PR.00_00_00_00.Still001.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 933979,
-		"inputAbbreviatedPath": "\/assets\/WebHeaderTest_PR.00_00_00_00.Still001.jpg",
-		"outputAbbreviatedPath": "\/assets\/WebHeaderTest_PR.00_00_00_00.Still001.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/content\/1-home\/test-hero.jpg": {
 		"fileType": 16384,

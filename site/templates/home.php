@@ -2,7 +2,8 @@
 
 		<?php snippet('nav') ?>
 
-		<div class="home_hero">
+		<div class="home_hero"
+				 style="background: url('assets/img/WebHeaderTest.jpg') no-repeat;">
 			<a href="<?php echo $page->vimeo_url() ?>" class="home_hero_button">
 			<span class="title"><?php echo $page->reel_title() ?></span>
 			<div class="divider1"></div>
@@ -15,7 +16,7 @@
 				class="vid_bg"
 				autoplay="autoplay"
 				loop="loop"
-				poster="assets/WebHeaderTest.jpg"
+				poster="assets/img/transparent.gif"
 			>
     		<source src="assets/WebHeaderTest.mp4" type="video/mp4">
   		</video>
