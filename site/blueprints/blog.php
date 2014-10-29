@@ -4,7 +4,6 @@ title: Blog
 pages: 
 	template: article
 	num: date
-	sortable: false
 	sort: flip
 files: False
 fields:

@@ -35,8 +35,8 @@
 			</section>
 
 			<section class="locations">
-				<p class="section_title">Lorem Ipsum dolor</p>
-				<p class="description">It is a long established fact that a reader  or at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+				<p class="section_title"><?php echo $page->find('locations')->locations_headline() ?></p>
+				<p class="description"><?php echo $page->find('locations')->locations_text() ?></p>
 				<div class="map_wrapper">
 					<img src="assets/img/map.svg" alt="" class="map">
 					<?php foreach($page->children()->find('locations')->children()->visible() as $location): ?>

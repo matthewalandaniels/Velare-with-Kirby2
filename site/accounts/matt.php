@@ -7,9 +7,10 @@ password: >
 language: en
 role: admin
 history:
+  - about/locations
+  - about
   - null
   - >
     blog/jan-and-melissa-react-to-their-highlight-film
   - blog/michael
-  - blog/zhouning
-token: c3efa1b04ed04c473ddab2584798fd183846a816
+token: 6804bd0f30c052b1f09d7141ba169a861d197fe3
