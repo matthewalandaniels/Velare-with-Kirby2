@@ -18,7 +18,9 @@
 				loop="loop"
 				poster="assets/img/transparent.gif"
 			>
-    		<source src="assets/WebHeaderTest.mp4" type="video/mp4">
+    		<?php foreach($page->videos() as $video): ?>
+  				<source src="<?php echo $video->url() ?>" type="<?php echo $video->mime() ?>">
+				<?php endforeach ?>
   		</video>
 		</div>
 

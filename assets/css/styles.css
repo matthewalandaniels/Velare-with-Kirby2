@@ -174,10 +174,16 @@ section {
 .about_hero,
 .project_hero {
   height: 620px;
-  background-size: 100% !important;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+.about_hero,
+.project_hero {
+  background-size: cover !important;
+}
+.home_hero {
+  background-size: 100% !important;
 }
 .home_hero .vid_bg {
   position: absolute;
