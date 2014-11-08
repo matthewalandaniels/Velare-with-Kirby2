@@ -7,10 +7,9 @@ password: >
 language: en
 role: admin
 history:
+  - about/team/matt-daniels
+  - about/team/sasuke-uchiha
+  - about/team/tim-twinem
   - about/locations
   - about
-  - null
-  - >
-    blog/jan-and-melissa-react-to-their-highlight-film
-  - blog/michael
-token: 6804bd0f30c052b1f09d7141ba169a861d197fe3
+token: 2d71a93db3c4091ba0bc774d119024488b9ce45a

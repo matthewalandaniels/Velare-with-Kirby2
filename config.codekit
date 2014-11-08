@@ -365,22 +365,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/assets\/stylus\/tipr.styl": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/assets\/stylus\/tipr.styl",
-		"outputAbbreviatedPath": "\/assets\/css\/tipr.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
 	"\/assets\/stylus\/tipsy.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -428,6 +412,17 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
+		},
+	"\/content\/1-home\/first-frame.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337142,
+		"inputAbbreviatedPath": "\/content\/1-home\/first-frame.jpg",
+		"outputAbbreviatedPath": "\/content\/1-home\/first-frame.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/content\/1-home\/test-hero.jpg": {
 		"fileType": 16384,
@@ -3533,6 +3528,17 @@
 		"initialSize": 47271,
 		"inputAbbreviatedPath": "\/thumbs\/about-hero-b7414151de203f2754df0e731c0d3c67.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/about-hero-b7414151de203f2754df0e731c0d3c67.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bigred2-6be75e5ee4136616896b9b7e1eb765b0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47497,
+		"inputAbbreviatedPath": "\/thumbs\/bigred2-6be75e5ee4136616896b9b7e1eb765b0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bigred2-6be75e5ee4136616896b9b7e1eb765b0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

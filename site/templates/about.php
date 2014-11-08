@@ -28,6 +28,7 @@
 							<img src="<?php echo $profile->image()->url() ?>" alt="">
 							<p class="first_name"><?php echo $profile->first_name() ?></p>
 							<p class="last_name"><?php echo $profile->last_name() ?></p>
+							<p class="job_title"><?php echo $profile->job_title() ?></p>
 							<p class-"twitter_handle"><a href="https://twitter.com/<?php echo $profile->twitter_name() ?>">@<?php echo $profile->twitter_name() ?></a></p>
 						</div>
 					<?php endforeach ?>

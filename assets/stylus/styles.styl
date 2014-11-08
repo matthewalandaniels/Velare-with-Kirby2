@@ -136,14 +136,15 @@ grey_block()
 
 .about_hero, .project_hero
 	background-size: cover !important
+	background-position: center !important
 
 .home_hero
 	background-size: 100% !important
 	.vid_bg
 		position: absolute
-		width: 100%
+		max-width: 100%
 		top: 0
-		left: 0
+		right: 0
 
 .home_hero_button
 	display: inline-block
@@ -349,7 +350,7 @@ grey_block()
 		grey_block()
 		col(7/12)
 	.profile
-		col(1/4)
+		col(1/4, cycle: 4)
 		text-align: center
 		img
 			width: 100%
@@ -432,26 +433,28 @@ grey_block()
 	.email, .button
 		height: 45px
 		border: 1px solid grey
-		text-transform: uppercase
 	.email
 		span(4/6)
 		padding-left: 15px
 		background: cream
 		letter-spacing: .2em
-		transition: background .2s ease
+		transition: all .2s ease
 	.button
 		span(2/6)
 		background: grey
 		text-align: center
+		text-transform: uppercase
 		color: white
 		font-family: 'Montserrat', sans-serif
 		font-weight: 400
 		font-size: 12px
 		letter-spacing: .3em
 		text-transform: uppercase
-		transition: opacity .2s ease
-	:focus
+		transition: all .2s ease
+	.email:focus
 		background: white
+	.button:focus
+		opacity: .8
 	.button:hover
 		opacity: .8
 
@@ -481,9 +484,9 @@ grey_block()
 		margin-left: 15px
 		top: 14px
 		fill: grey
-		transition: opacity .2s ease
+		transition: fill .2s ease
 	#facebook:hover, #pinterest:hover, #twitter:hover
-		opacity: .6
+		fill: green
 
 #contact_info
 	display: none
@@ -491,15 +494,14 @@ grey_block()
 	margin: 0 auto
 	padding: half
 	color: white
+	background: rgba(40, 40, 40, .7)
 	border: 1px solid rgba(255 255 255 .3)
 	.intro, .info
 		col(1/2)
-		//stack()
 	.title
 		title_1()
 	.text
 		margin-top: quarter
-		//margin-bottom: quarter
 		opacity: .6
 	.row>div
 		border-top: 1px solid rgba(255 255 255 .3)
@@ -592,27 +594,36 @@ grey_block()
 @media (max-width: 850px)
 	.nav_clear
 		height: 100px
+	
 	.nav_reg_end
 		height: 60px
+	
 	.logo_clear
 		height: 45px
+	
 	.nav_links_clear
 		right: 30px
 		a
 			margin-left: 30px
+	
 	.home_hero, .about_hero, .project_hero
 		height: 500px
+	
 	.project_thumb
 		stack()
+	
 	.about_info, .team
 		.headline,.info, .profiles
 			stack()
+	
 	.locations
 		.description
 			width: 100%
+	
 	.blog_post
 		.date
 			font-size:24px
+	
 	.footer
 		.newsletter_text, .newsletter_form
 			stack()
@@ -620,10 +631,48 @@ grey_block()
 			unshift()
 			margin-top: 30px
 
-@media (max-width: 1025px)
+@media (max-width: 1000px)
+	.nav_links_clear
+		right: 40px
+		a
+			margin-left: 40px
+			
+	.project_thumb
+		.overlay
+			top: 20px
+			bottom: 20px
+			left: 20px
+			right: 20px
+		.couple
+			font-size: 14px
+		.location
+			font-size: 12px
+			
+	.team
+		.profiles
+			margin-bottom: -30px
+		.profile
+			col(1/2, uncycle: 4, cycle: 2, gutter: 8)
+			text-align: center
+			margin-bottom: quarter
+			
+	.blog_post
+		.content
+			.text
+				width: 100%
+			.fb-like
+				float: none
+			
+@media (max-width: 1200px)
+	.home_hero
+		.vid_bg
+			max-width: none
+			height: 100%
+	
 	.newsletter_form
 		letter-spacing: .1em
 		font-size: 12px
+	
 	#contact_info
 		.intro, .info
 			stack()

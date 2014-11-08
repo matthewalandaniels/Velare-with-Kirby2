@@ -3,7 +3,7 @@
 		<?php snippet('nav') ?>
 
 		<div class="home_hero"
-				 style="background: url('assets/img/WebHeaderTest.jpg') no-repeat;">
+				 style="background: url('<?php echo $page->image('first-frame.jpg')->url() ?>') no-repeat;">
 			<a href="<?php echo $page->vimeo_url() ?>" class="home_hero_button">
 			<span class="title"><?php echo $page->reel_title() ?></span>
 			<div class="divider1"></div>
@@ -18,10 +18,22 @@
 				loop="loop"
 				poster="assets/img/transparent.gif"
 			>
-    		<?php foreach($page->videos() as $video): ?>
-  				<source src="<?php echo $video->url() ?>" type="<?php echo $video->mime() ?>">
-				<?php endforeach ?>
+
+			<?php foreach ($page->videos() as $video) {
+				switch ($video->extension()) {
+					case 'webm':
+						$webm = $video;
+						break;
+					case 'mp4':
+						$mp4 = $video;
+						break;
+				}
+			} ?>
+
+			<source src="<?php echo $webm->url() ?>" type="<?php echo $webm->mime() ?>">
+			<source src="<?php echo $mp4->url() ?>" type="<?php echo $mp4->mime() ?>">
   		</video>
+
 		</div>
 
 		<section class="portfolio">

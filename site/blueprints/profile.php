@@ -16,6 +16,9 @@ fields:
     label: Last Name
     type:  text
     width: 1/2
+  job_title:
+    label: Job Title
+    type: text
   twitter_name:
     label: Twitter Name
     type: text

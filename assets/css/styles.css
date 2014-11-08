@@ -181,15 +181,16 @@ section {
 .about_hero,
 .project_hero {
   background-size: cover !important;
+  background-position: center !important;
 }
 .home_hero {
   background-size: 100% !important;
 }
 .home_hero .vid_bg {
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   top: 0;
-  left: 0;
+  right: 0;
 }
 .home_hero_button {
   display: inline-block;
@@ -641,8 +642,12 @@ section {
 .team .profile:after {
   clear: both;
 }
-.team .profile:last-child {
+.team .profile:nth-child(4n) {
   margin-right: 0%;
+  float: right;
+}
+.team .profile:nth-child(4n+1) {
+  clear: both;
 }
 .team .profile img {
   width: 100%;
@@ -839,7 +844,6 @@ section {
 .newsletter_form .button {
   height: 45px;
   border: 1px solid #676a6f;
-  text-transform: uppercase;
 }
 .newsletter_form .email {
   *zoom: 1;
@@ -852,8 +856,8 @@ section {
   padding-left: 15px;
   background: #edede8;
   letter-spacing: 0.2em;
-  -webkit-transition: background 0.2s ease;
-          transition: background 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .newsletter_form .email:before,
 .newsletter_form .email:after {
@@ -873,14 +877,15 @@ section {
   margin-right: 0%;
   background: #676a6f;
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  -webkit-transition: opacity 0.2s ease;
-          transition: opacity 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .newsletter_form .button:before,
 .newsletter_form .button:after {
@@ -890,8 +895,11 @@ section {
 .newsletter_form .button:after {
   clear: both;
 }
-.newsletter_form :focus {
+.newsletter_form .email:focus {
   background: #fff;
+}
+.newsletter_form .button:focus {
+  opacity: 0.8;
 }
 .newsletter_form .button:hover {
   opacity: 0.8;
@@ -926,13 +934,13 @@ section {
   margin-left: 15px;
   top: 14px;
   fill: #676a6f;
-  -webkit-transition: opacity 0.2s ease;
-          transition: opacity 0.2s ease;
+  -webkit-transition: fill 0.2s ease;
+          transition: fill 0.2s ease;
 }
 .row_2 #facebook:hover,
 .row_2 #pinterest:hover,
 .row_2 #twitter:hover {
-  opacity: 0.6;
+  fill: #b2dab9;
 }
 #contact_info {
   display: none;
@@ -940,6 +948,7 @@ section {
   margin: 0 auto;
   padding: 60px;
   color: #fff;
+  background: rgba(40,40,40,0.7);
   border: 1px solid rgba(255,255,255,0.3);
 }
 #contact_info .intro,
@@ -1290,7 +1299,73 @@ section {
     margin-top: 30px;
   }
 }
-@media (max-width: 1025px) {
+@media (max-width: 1000px) {
+  .nav_links_clear {
+    right: 40px;
+  }
+  .nav_links_clear a {
+    margin-left: 40px;
+  }
+  .project_thumb .overlay {
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  .project_thumb .couple {
+    font-size: 14px;
+  }
+  .project_thumb .location {
+    font-size: 12px;
+  }
+  .team .profiles {
+    margin-bottom: -30px;
+  }
+  .team .profile {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 46%;
+    margin-left: 0%;
+    margin-right: 8%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .team .profile:before,
+  .team .profile:after {
+    content: '';
+    display: table;
+  }
+  .team .profile:after {
+    clear: both;
+  }
+  .team .profile:nth-child(4n) {
+    margin-right: 8%;
+    float: left;
+  }
+  .team .profile:nth-child(4n+1) {
+    clear: none;
+  }
+  .team .profile:nth-child(2n) {
+    margin-right: 0%;
+    float: right;
+  }
+  .team .profile:nth-child(2n+1) {
+    clear: both;
+  }
+  .blog_post .content .text {
+    width: 100%;
+  }
+  .blog_post .content .fb-like {
+    float: none;
+  }
+}
+@media (max-width: 1200px) {
+  .home_hero .vid_bg {
+    max-width: none;
+    height: 100%;
+  }
   .newsletter_form {
     letter-spacing: 0.1em;
     font-size: 12px;

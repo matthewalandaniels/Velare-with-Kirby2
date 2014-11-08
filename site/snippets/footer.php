@@ -6,8 +6,8 @@
 		</div>
 		<div class="newsletter_form">
 			
-		<form action="//godlovesjapan.us7.list-manage.com/subscribe/post?u=8ac56639444ca94e8547a96d6&amp;id=52e76a57b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+		<form action="//velare.us9.list-manage.com/subscribe/post?u=2901e71458464a67ea2df1b79&amp;id=e904cf6000" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required>
 			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			<div style="position: absolute; left: -5000px;"><input type="text" name="b_8ac56639444ca94e8547a96d6_52e76a57b7" tabindex="-1" value=""></div>
 			<div><input type="submit" value="sign up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>

@@ -9,7 +9,7 @@
  
 .nivo-lightbox-theme-default.nivo-lightbox-overlay { 
 	background: #282828;
-	background: rgba(40,40,40,.98); 
+	background: rgba(40,40,40,.93); 
 }
 .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(../img/loading.gif) no-repeat 50% 50%; }
 
@@ -43,6 +43,7 @@
 	text-indent: -9999px;
 	padding: 5px;
 	opacity: 0.5;
+	transition: opacity .2s ease
 }
 .nivo-lightbox-theme-default .nivo-lightbox-close:hover { opacity: 1; }
 
