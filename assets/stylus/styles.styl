@@ -38,15 +38,15 @@ grey_block()
 	padding-top: half - 5px
 	border-top: 1px solid grey
 
-.center_wrapper
-	center(1014px, pad=3%)
-	overflow: auto
-
 .mega_wrapper
 	margin: 50px
 	padding-bottom: 50px
 	background-color: cream
 	position: relative
+	
+.center_wrapper
+	center(1014px, pad=3%)
+	overflow: auto
 
 .nav_clear
 	height: normal
@@ -537,6 +537,7 @@ grey_block()
 			font-size: 24px
 			margin-bottom: half - 10
 		.text
+			float: left
 			width: 74.25%
 			p_line_breaks()
 		.fluid-width-video-wrapper
@@ -545,6 +546,8 @@ grey_block()
 			float: right
 		.read_more
 			display: inline-block
+			float: left
+			clear: both
 			font-family: 'Montserrat', sans-serif
 			font-weight: 400
 			font-size: 11px
@@ -590,91 +593,3 @@ grey_block()
 
 #disqus_thread
 		margin-top: normal
-/*-----------------------------------------*/
-@media (max-width: 850px)
-	.nav_clear
-		height: 100px
-	
-	.nav_reg_end
-		height: 60px
-	
-	.logo_clear
-		height: 45px
-	
-	.nav_links_clear
-		right: 30px
-		a
-			margin-left: 30px
-	
-	.home_hero, .about_hero, .project_hero
-		height: 500px
-	
-	.project_thumb
-		stack()
-	
-	.about_info, .team
-		.headline,.info, .profiles
-			stack()
-	
-	.locations
-		.description
-			width: 100%
-	
-	.blog_post
-		.date
-			font-size:24px
-	
-	.footer
-		.newsletter_text, .newsletter_form
-			stack()
-		.newsletter_form
-			unshift()
-			margin-top: 30px
-
-@media (max-width: 1000px)
-	.nav_links_clear
-		right: 40px
-		a
-			margin-left: 40px
-			
-	.project_thumb
-		.overlay
-			top: 20px
-			bottom: 20px
-			left: 20px
-			right: 20px
-		.couple
-			font-size: 14px
-		.location
-			font-size: 12px
-			
-	.team
-		.profiles
-			margin-bottom: -30px
-		.profile
-			col(1/2, uncycle: 4, cycle: 2, gutter: 8)
-			text-align: center
-			margin-bottom: quarter
-			
-	.blog_post
-		.content
-			.text
-				width: 100%
-			.fb-like
-				float: none
-			
-@media (max-width: 1200px)
-	.home_hero
-		.vid_bg
-			max-width: none
-			height: 100%
-	
-	.newsletter_form
-		letter-spacing: .1em
-		font-size: 12px
-	
-	#contact_info
-		.intro, .info
-			stack()
-		.info
-			margin-top: quarter

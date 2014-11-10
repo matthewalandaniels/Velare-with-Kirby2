@@ -10,9 +10,9 @@
 					
 					<?php echo $page->vimeo_embed() ?>
 					
-					<div class="fb-like" data-href="<?php echo $page->url() ?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-					
 					<div class="text"><?php echo kirbytext($page->text()) ?></div>
+
+					<div class="fb-like" data-href="<?php echo $page->url() ?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 
 				</div>
 			</section>

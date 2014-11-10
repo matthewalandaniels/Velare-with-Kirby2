@@ -7,6 +7,7 @@
     <?php echo css('assets/css/styles.css') ?>
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <?php echo css('assets/css/media-queries.css') ?>
     <?php echo css('assets/css/owl.carousel.css') ?>
     <?php echo css('assets/css/owl.theme.default.css') ?>
     <?php echo css('assets/css/nivo-lightbox.css') ?>

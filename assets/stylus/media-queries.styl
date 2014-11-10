@@ -1,0 +1,126 @@
+@import 'normalize.css'
+@import 'jeet'
+@import 'variables.styl'
+@import 'typography.styl'
+
+@media (max-width: 1200px)
+	.home_hero
+		.vid_bg
+			max-width: none
+			height: 100%
+	
+	.newsletter_form
+		letter-spacing: .1em
+		font-size: 12px
+	
+	#contact_info
+		.intro, .info
+			stack()
+		.info
+			margin-top: quarter
+
+@media (max-width: 1000px)
+	.nav_links_clear
+		right: 40px
+		a
+			margin-left: 40px
+			
+	.project_thumb
+		.overlay
+			top: 20px
+			bottom: 20px
+			left: 20px
+			right: 20px
+		.couple
+			font-size: 14px
+		.location
+			font-size: 12px
+			
+	.team
+		.profiles
+			margin-bottom: -30px
+		.profile
+			col(1/2, uncycle: 4, cycle: 2, gutter: 8)
+			text-align: center
+			margin-bottom: quarter
+			
+	.blog_post
+		.content
+			.text
+				width: 100%
+			.fb-like
+				float: none
+				margin-top: quarter
+			
+@media (max-width: 850px)
+
+	.mega_wrapper
+		margin: 0px
+	
+	.nav_end
+		height: 60px
+		left: 0px
+		right: 0px
+		position: fixed
+	
+	.logo_clear
+		height: 45px
+	
+	.nav_links_clear
+		right: 30px
+		a
+			margin-left: 30px
+	
+	.home_hero, .about_hero, .project_hero
+		height: 480px
+	
+	.project_thumb
+		stack()
+		text-align: left
+		.overlay
+			cf()
+			position: relative
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			padding: quarter
+			opacity: 1
+		.text
+			position: static
+			transform: none
+			top: 0
+			left: 0
+			opacity: 1
+		.couple
+			float: left
+			font-size: 16px
+		.couple::after
+			content: ""
+			border-bottom: none
+			border-right: 1px solid green
+			display: inline
+			height: 15px
+			margin: 0 20px
+		.location
+			float: left
+			font-size: 14px
+	
+	.about_info, .team
+		.headline,.info, .profiles
+			stack()
+	
+	.locations
+		.description
+			width: 100%
+	
+	.blog_post
+		.date
+			font-size:24px
+	
+	.footer
+		.newsletter_text, .newsletter_form
+			stack()
+		.newsletter_form
+			unshift()
+			margin-top: 30px
