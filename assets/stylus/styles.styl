@@ -70,7 +70,7 @@ grey_block()
 	transition: height .2s ease,
     					background .4s ease
 
-.nav_end
+.nav_end, .nav_mobile
 	height: half
 	position: fixed
 	left: 50px
@@ -80,6 +80,12 @@ grey_block()
 	z-index: 100
 	transition: height .2s ease,
     					background .4s ease
+    					
+.nav_mobile
+	display: none
+	left: 0px
+	right: 0px
+
 .logo_clear
 	fill: white
 	height: 52px
@@ -124,6 +130,26 @@ grey_block()
 	a:hover
 		color: green
 
+.mobile_menu_link
+	font-size: 13px
+	#hamburger
+		height: 12px
+		position: relative
+		top: 1px
+		fill: grey
+		margin-left: 8px
+
+#mobile_menu_items
+	display: none
+	text-align: center
+	.link
+		title_1()
+		display: block
+		margin-bottom: 65px
+		color: white
+	.link:last-of-type
+		margin-bottom: 0px
+	
 .selected
 	padding-bottom: 4px
 	border-bottom: 1px solid green

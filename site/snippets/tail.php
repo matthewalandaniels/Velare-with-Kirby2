@@ -5,7 +5,7 @@
 											'assets/js/jquery.fitvids.js',
 											'assets/js/nav-animation.js',
 											'assets/js/jquery.tipsy.js',
-											'assets/js/jquery.smoove'
+											'assets/js/jquery.smoove.js'
 	)) ?>
 
 	<script> /*owl carousel*/
@@ -41,9 +41,9 @@
 	  ga('create', 'UA-31724684-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
-	<script> /*smoov*/
+	<script> /*smoove*/
 		$(document).ready(function() {
-			$('.foo').smoove();
+		     $('.foo').smoove();
 		});
 	</script>
 

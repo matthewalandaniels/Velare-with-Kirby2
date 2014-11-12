@@ -35,4 +35,6 @@
 
 	<?php snippet('footer') ?>
 	<?php snippet('contact_info') ?>
+	<?php snippet('mobile_menu_items') ?>
+
 <?php snippet('tail') ?>
