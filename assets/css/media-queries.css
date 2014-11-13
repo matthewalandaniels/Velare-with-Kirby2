@@ -178,7 +178,8 @@
   }
   .project_thumb .text {
     position: static;
-    transform: none;
+    -ms-transform: none;
+        transform: none;
     -webkit-transform: none;
     width: auto;
     opacity: 1;

@@ -99,6 +99,7 @@ section {
 .logo_clear {
   fill: #fff;
   height: 52px;
+  width: 200px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -113,6 +114,7 @@ section {
 .logo_reg {
   fill: #676a6f;
   height: 35px;
+  width: 130px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -177,6 +179,7 @@ section {
 }
 .mobile_menu_link #hamburger {
   height: 12px;
+  width: 21px;
   position: relative;
   top: 1px;
   fill: #676a6f;
