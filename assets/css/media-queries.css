@@ -105,9 +105,8 @@
     left: 0px;
     right: 0px;
   }
-  .nav_clear,
-  .nav_reg {
-    display: none;
+  .mobile_menu_link #hamburger {
+    width: 22px;
   }
   .nav_end {
     display: none;
