@@ -40,17 +40,50 @@
   .nav_links_clear a {
     margin-left: 40px;
   }
+  .project_thumb {
+    text-align: left;
+  }
   .project_thumb .overlay {
-    top: 20px;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    *zoom: 1;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    opacity: 1;
+  }
+  .project_thumb .overlay:before,
+  .project_thumb .overlay:after {
+    content: '';
+    display: table;
+  }
+  .project_thumb .overlay:after {
+    clear: both;
+  }
+  .project_thumb .text {
+    position: static;
+    -ms-transform: none;
+        transform: none;
+    -webkit-transform: none;
+    width: auto;
+    opacity: 1;
   }
   .project_thumb .couple {
-    font-size: 14px;
+    float: left;
+    font-size: 13px;
+  }
+  .project_thumb .couple::after {
+    content: "";
+    border-bottom: none;
+    border-right: 1px solid #b2dab9;
+    display: inline;
+    height: 15px;
+    margin: 0 12px;
   }
   .project_thumb .location {
-    font-size: 12px;
+    float: left;
+    font-size: 11px;
   }
   .team .profiles {
     margin-bottom: -30px;
@@ -96,7 +129,15 @@
     margin-top: 30px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 950px) {
+  .project_thumb .couple::after {
+    display: none;
+  }
+  .project_thumb .location {
+    clear: both;
+  }
+}
+@media (max-width: 768px) {
   .mega_wrapper {
     margin: 0px;
   }
@@ -137,12 +178,6 @@
   .home_hero_button {
     top: 230px;
   }
-  .about_hero .title {
-    top: 300px;
-  }
-  .about_hero .divider {
-    top: 300px;
-  }
   .project_thumb {
     display: block;
     clear: both;
@@ -150,7 +185,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
   }
   .project_thumb:first-child {
     margin-left: auto;
@@ -158,47 +192,17 @@
   .project_thumb:last-child {
     margin-right: auto;
   }
-  .project_thumb .overlay {
-    *zoom: 1;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 30px;
-    opacity: 1;
-  }
-  .project_thumb .overlay:before,
-  .project_thumb .overlay:after {
-    content: '';
-    display: table;
-  }
-  .project_thumb .overlay:after {
-    clear: both;
-  }
-  .project_thumb .text {
-    position: static;
-    -ms-transform: none;
-        transform: none;
-    -webkit-transform: none;
-    width: auto;
-    opacity: 1;
-  }
-  .project_thumb .couple {
-    float: left;
-    font-size: 16px;
-  }
   .project_thumb .couple::after {
-    content: "";
-    border-bottom: none;
-    border-right: 1px solid #b2dab9;
     display: inline;
-    height: 15px;
-    margin: 0 20px;
   }
   .project_thumb .location {
-    float: left;
-    font-size: 14px;
+    clear: none;
+  }
+  .about_hero .title {
+    top: 300px;
+  }
+  .about_hero .divider {
+    top: 300px;
   }
   .about_info .headline,
   .team .headline {
@@ -293,8 +297,77 @@
   .logos .logo:nth-child(8) {
     margin-right: 0;
   }
+  .project_info .description {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    border: none;
+    margin-bottom: 60px;
+  }
+  .project_info .description:first-child {
+    margin-left: auto;
+  }
+  .project_info .description:last-child {
+    margin-right: auto;
+  }
+  .project_info .credits {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .project_info .credits:first-child {
+    margin-left: auto;
+  }
+  .project_info .credits:last-child {
+    margin-right: auto;
+  }
   .blog_post .date {
-    font-size: 24px;
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+  .blog_post .date:first-child {
+    margin-left: auto;
+  }
+  .blog_post .date:last-child {
+    margin-right: auto;
+  }
+  .blog_post .content {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding-top: 25px;
+  }
+  .blog_post .content:first-child {
+    margin-left: auto;
+  }
+  .blog_post .content:last-child {
+    margin-right: auto;
+  }
+  .blog_post .content .title {
+    margin-bottom: 35px;
+  }
+  .blog_post .content .fluid-width-video-wrapper {
+    margin-bottom: 35px;
+  }
+  .blog_post .content .read_more {
+    margin-top: 30px;
   }
   .footer .newsletter_text,
   .footer .newsletter_form {

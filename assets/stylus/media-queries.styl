@@ -30,15 +30,35 @@
 			margin-left: 40px
 
 	.project_thumb
+		text-align: left
 		.overlay
-			top: 20px
-			bottom: 20px
-			left: 20px
-			right: 20px
+			cf()
+			position: relative
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			padding: 20px
+			opacity: 1
+		.text
+			position: static
+			transform: none
+			-webkit-transform: none
+			width: auto
+			opacity: 1
 		.couple
-			font-size: 14px
+			float: left
+			font-size: 13px
+		.couple::after
+			content: ""
+			border-bottom: none
+			border-right: 1px solid green
+			display: inline
+			height: 15px
+			margin: 0 12px
 		.location
-			font-size: 12px
+			float: left
+			font-size: 11px
 			
 	.team
 		.profiles
@@ -56,8 +76,14 @@
 				float: none
 				margin-top: quarter
 			
-@media (max-width: 850px)
-
+@media (max-width: 950px)
+	.project_thumb
+		.couple::after
+			display: none
+		.location
+			clear: both
+					
+@media (max-width: 768px)
 	.mega_wrapper
 		margin: 0px
 	
@@ -93,44 +119,19 @@
 	
 	.home_hero_button
 		top: 230px
+		
+	.project_thumb
+		stack()
+		.couple::after
+			display: inline
+		.location
+			clear: none
 	
 	.about_hero
 		.title
 			top: 300px
 		.divider
 			top: 300px
-					
-	.project_thumb
-		stack()
-		text-align: left
-		.overlay
-			cf()
-			position: relative
-			top: 0
-			bottom: 0
-			left: 0
-			right: 0
-			padding: quarter
-			opacity: 1
-		.text
-			position: static
-			transform: none
-			-webkit-transform: none
-			width: auto
-			opacity: 1
-		.couple
-			float: left
-			font-size: 16px
-		.couple::after
-			content: ""
-			border-bottom: none
-			border-right: 1px solid green
-			display: inline
-			height: 15px
-			margin: 0 20px
-		.location
-			float: left
-			font-size: 14px
 	
 	.about_info, .team
 		.headline
@@ -158,17 +159,38 @@
 		.logo:nth-child(3), .logo:nth-child(5), .logo:nth-child(8)
 			margin-right: 0
 	
+	.project_info
+		.description
+			stack()
+			padding-top: 0px
+			border: none
+			margin-bottom: half
+		.credits
+			stack()
+			text-align: center
+
 	.blog_post
 		.date
-			font-size:24px
-	
+			stack()
+			padding-top: 30px
+		.content
+			stack()
+			border: none
+			padding-top: 25px
+			.title
+				margin-bottom: 35px
+			.fluid-width-video-wrapper
+				margin-bottom: 35px
+			.read_more
+				margin-top: 30px
+		
 	.footer
 		.newsletter_text, .newsletter_form
 			stack()
 		.newsletter_form
 			unshift()
 			margin-top: 30px
-			
+	
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
 	.home_hero
 		background-size: auto 100% !important
