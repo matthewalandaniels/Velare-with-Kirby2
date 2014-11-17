@@ -50,14 +50,10 @@
 			float: left
 			font-size: 13px
 		.couple::after
-			content: ""
-			border-bottom: none
-			border-right: 1px solid green
-			display: inline
-			height: 15px
-			margin: 0 12px
+			display: none
 		.location
 			float: left
+			clear: both
 			font-size: 11px
 			
 	.team
@@ -75,13 +71,6 @@
 			.fb-like
 				float: none
 				margin-top: quarter
-			
-@media (max-width: 950px)
-	.project_thumb
-		.couple::after
-			display: none
-		.location
-			clear: both
 					
 @media (max-width: 768px)
 	.mega_wrapper
@@ -119,11 +108,17 @@
 	
 	.home_hero_button
 		top: 230px
-		
+
 	.project_thumb
 		stack()
-		.couple::after
+		.couple:after
+			content: ""
 			display: inline
+			border-bottom: none
+			border-right: 1px solid green
+			display: inline
+			height: 15px
+			margin: 0 12px
 		.location
 			clear: none
 	
@@ -143,21 +138,10 @@
 	.about_info, .team
 		.headline,.info, .profiles
 			stack()
-	
+			
 	.locations
 		.description
 			width: 100%
-	
-	.logos
-		margin-top: normal
-		.logo
-			col(1/3)
-			margin-bottom: quarter
-		.logo:nth-child(-n+5)
-			col(1/2)
-			margin-bottom: quarter
-		.logo:nth-child(3), .logo:nth-child(5), .logo:nth-child(8)
-			margin-right: 0
 	
 	.project_info
 		.description
@@ -190,7 +174,90 @@
 		.newsletter_form
 			unshift()
 			margin-top: 30px
+			
+@media (max-width: 600px)
+
+	.home_hero_button
+		align(h)
+		top: 220px
+		padding: 0
+		border: 0
+		overflow: visible
+		.title
+			top: 0
+			font-weight: 700
+			font-size: 3em
+			line-height: 1.1em
+			display: block
+		.divider1, .divider2, .play_triangle
+			display: none
+		.date
+			display: block
+			top: -115px			
+		.date::after
+			content: url('/assets/img/play.svg')
+			width: 50px
+			display: block
+			position: relative
+			margin: 0 auto
+			top: 105px
 	
+	.about_hero
+		.title
+			top: 250px
+			padding: 25px 0
+			line-height: 1.3em
+			margin: 0 3%
+		.divider
+			top: 250px
+
+@media (max-width: 550px)
+
+	.project_thumb
+		.couple::after
+			display: none
+		.location
+			clear: both
+			
+	.project_hero_button
+		padding: 40px 50px
+	
+	.project_hero_button::after
+		top: -10px
+		bottom: -10px
+		left: -10px
+		right: -10px
+
+	.logos
+		margin-top: normal
+		.logo
+			col(1/3)
+			margin-bottom: quarter
+		.logo:nth-child(-n+5)
+			col(1/2)
+			margin-bottom: quarter
+		.logo:nth-child(3), .logo:nth-child(5), .logo:nth-child(8)
+			margin-right: 0
+		
+	.footer
+		overflow: visible
+		
+	.row_2
+		.mini_logo
+			top: -2px
+			float: right
+		.divider_1
+			display: none
+		.copyright
+			position: absolute
+			top: 122px
+		#facebook, #pinterest, #twitter
+			width: 30px
+			float: left
+			margin: 0 25px 0 0
+			top: 3px
+
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
 	.home_hero
 		background-size: auto 100% !important

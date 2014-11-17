@@ -14,6 +14,14 @@
 		    items:2,
 		    loop:true,
 		    margin:10,
+		    responsive:{
+		    	0:{
+            items:1,
+          },
+          550:{
+            items:2,
+          }
+        }
 		});
 	</script>
 	<script> /*nivo lightbox*/
