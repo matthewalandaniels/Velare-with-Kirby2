@@ -344,6 +344,12 @@
   }
 }
 @media (max-width: 600px) {
+  .section_title {
+    margin-bottom: 30px;
+  }
+  .project_thumb {
+    margin-bottom: 30px;
+  }
   .home_hero_button {
     position: absolute;
     -webkit-transform-style: preserve-3d;
@@ -389,6 +395,25 @@
   }
   .about_hero .divider {
     top: 250px;
+  }
+  .about_info .headline {
+    padding-top: 0px;
+  }
+  .team {
+    margin-top: 60px;
+  }
+  .blog_post {
+    margin-top: 60px;
+  }
+  .blog_post:first-of-type {
+    margin-top: 120px;
+  }
+  #contact_info_mobile {
+    margin-top: 120px;
+  }
+  .footer {
+    margin-top: 120px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 550px) {
@@ -459,6 +484,9 @@
   }
   .footer {
     overflow: visible;
+  }
+  .newsletter_form .button {
+    font-size: 10px;
   }
   .row_2 .mini_logo {
     top: -2px;

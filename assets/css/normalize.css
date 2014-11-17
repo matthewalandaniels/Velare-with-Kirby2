@@ -293,7 +293,8 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearance: none; /* 2 */
+  border-radius: 0;
   cursor: pointer; /* 3 */
 }
 
@@ -438,6 +439,8 @@ input {
   padding: 0;
   vertical-align: middle;
   border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 :focus {
