@@ -6,12 +6,15 @@ files: false
 fields:
 	title:
     label: Title
-    type:  text
-  email:
+    type: text
+	email:
     label: Contact Email
     type: email
     width: 1/2
-  phone:
+	phone:
     label: Contact Phone
     type: tel
     width: 1/2
+	contact_text:
+  	label: Contact Text
+  	type: textarea

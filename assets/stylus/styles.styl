@@ -148,7 +148,7 @@ grey_block()
 	.link
 		title_1()
 		display: block
-		margin-bottom: 65px
+		margin-bottom: 45px
 		color: white
 	.link:last-of-type
 		margin-bottom: 0px
@@ -520,20 +520,35 @@ grey_block()
 #contact_info
 	display: none
 	overflow: auto
-	margin: 0 auto
-	padding: half
 	color: white
 	background: rgba(40, 40, 40, .7)
-	border: 1px solid rgba(255 255 255 .3)
+	border: 1px solid rgba(255, 255, 255, .3)
+	padding: half
+	margin: 0 auto
+	.text
+		opacity: .6
+	.row>div
+		border-top: 1px solid rgba(255, 255, 255, .3)
+	a
+		color: white	
+		
+#contact_info_mobile
+	margin-top: 180px
+	.row>div
+		border-top: 1px solid grey
+	.email_icon, .phone_icon
+		fill: grey
+	a
+		color: grey
+			
+#contact_info, #contact_info_mobile
 	.intro, .info
 		col(1/2)
 	.title
 		title_1()
 	.text
 		margin-top: quarter
-		opacity: .6
 	.row>div
-		border-top: 1px solid rgba(255 255 255 .3)
 		padding-top: 15px
 	.row:nth-child(2)
 		margin-top: quarter
@@ -547,7 +562,6 @@ grey_block()
 		title_1()
 		font-size: 15px
 		a
-			color: white
 			transition: color .2s ease
 		a:hover
 			color: green

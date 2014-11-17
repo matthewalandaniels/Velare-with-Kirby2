@@ -13,7 +13,9 @@
     font-size: 12px;
   }
   #contact_info .intro,
-  #contact_info .info {
+  #contact_info_mobile .intro,
+  #contact_info .info,
+  #contact_info_mobile .info {
     display: block;
     clear: both;
     float: none;
@@ -22,14 +24,19 @@
     margin-right: auto;
   }
   #contact_info .intro:first-child,
-  #contact_info .info:first-child {
+  #contact_info_mobile .intro:first-child,
+  #contact_info .info:first-child,
+  #contact_info_mobile .info:first-child {
     margin-left: auto;
   }
   #contact_info .intro:last-child,
-  #contact_info .info:last-child {
+  #contact_info_mobile .intro:last-child,
+  #contact_info .info:last-child,
+  #contact_info_mobile .info:last-child {
     margin-right: auto;
   }
-  #contact_info .info {
+  #contact_info .info,
+  #contact_info_mobile .info {
     margin-top: 30px;
   }
 }

@@ -2,4 +2,12 @@ Title: Contact
 
 ----
 
-Text: 
+Email: hello@velare.tv
+
+----
+
+Phone: (888) 555-1234
+
+----
+
+Contact-text: Boop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.

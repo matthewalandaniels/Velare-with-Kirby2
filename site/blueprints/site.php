@@ -18,20 +18,6 @@ fields: true
   copyright:
     label: Copyright
     type:  text
-  contact:
-    label: Contact Info
-    type: headline
-  contact_text:
-    label: Contact Text
-    type: textarea
-  email:
-    label: Contact Email
-    type: email
-    width: 1/2
-  phone:
-    label: Contact Phone
-    type: tel
-    width: 1/2
   newsletter_info:
     label: Newsletter Info
     type: headline

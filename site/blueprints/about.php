@@ -7,7 +7,7 @@ files:
 fields:
   title:
     label: Title
-    type:  text
+    type: text
   hero_title:
     label: Hero Title
     type: text
