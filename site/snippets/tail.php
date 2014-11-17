@@ -26,8 +26,11 @@
 	</script>
 	<script> /*nivo lightbox*/
 		$(document).ready(function(){
-		    $('a').nivoLightbox();
+		  $('.lightbox').nivoLightbox();
 		});
+		if ($(window).width() < 768) { 
+   		$('.home_hero_button').removeClass('lightbox');
+		}
 	</script>
 	<script> /*fitVid*/
 	  $(document).ready(function(){

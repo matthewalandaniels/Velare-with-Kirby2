@@ -5,7 +5,7 @@
 		<div class="home_hero"
 				 style="background: url('<?php echo $page->image('first-frame.jpg')->url() ?>') no-repeat;">
 			
-			<a href="<?php echo $page->vimeo_url() ?>" class="home_hero_button">
+			<a href="<?php echo $page->vimeo_url() ?>" class="home_hero_button lightbox">
 				<span class="title"><?php echo $page->reel_title() ?></span>
 				<div class="divider1"></div>
 				<span class="date"><?php echo $page->reel_date() ?></span>

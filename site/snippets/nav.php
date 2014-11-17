@@ -8,7 +8,7 @@
 		<?php foreach($pages->visible() as $p): ?>
 			<a <?php e($p->isOpen(), 'class="selected"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
 		<?php endforeach ?>
-	  <a href="#contact_info" data-lightbox-type="inline">Contact</a>
+	  <a href="#contact_info" data-lightbox-type="inline" class="lightbox" >Contact</a>
 	</div>
 </div>
 
@@ -19,7 +19,7 @@
 	</a>
 
 	<div id="nav_links" class="nav_links_reg">
-	  <a href="#mobile_menu_items" class="mobile_menu_link" data-lightbox-type="inline">Menu
+	  <a href="#mobile_menu_items" class="mobile_menu_link lightbox" data-lightbox-type="inline">Menu
 			<svg version="1.1" id="hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 12" enable-background="new 0 0 20 12" xml:space="preserve">
 			<rect width="20" height="2"/>
 			<rect y="5" width="20" height="2"/>
