@@ -51,17 +51,17 @@
 			</section>
 
 			<section class="logos">
-				<p class="section_title">Lorem Ipsum dolor</p>
-				<a href="" class="logo martha"><img src="assets/img/martha.svg"></a>
-				<a href="" class="logo free"><img src="assets/img/free.svg"></a>
-				<a href="" class="logo knot"><img src="assets/img/knot.svg"></a>
-				<a href="" class="logo green"><img src="assets/img/green.svg"></a>
-				<a href="" class="logo chicks"><img src="assets/img/chicks.svg"></a>
-				<a href="" class="logo couture"><img src="assets/img/couture.svg"></a>
-				<a href="" class="logo fab"><img src="assets/img/fab.svg"></a>
-				<a href="" class="logo mywedding"><img src="assets/img/mywedding.svg"></a>
-				<a href="" class="logo weddingwire"><img src="assets/img/weddingwire.svg"></a>
-				<a href="" class="logo bridal"><img src="assets/img/bridal.svg"></a>
+				<p class="section_title"><?php echo $page->featured_section_title() ?></p>
+				<a href="http://www.marthastewartweddings.com/" class="logo martha"><img src="assets/img/martha.svg"></a>
+				<a href="http://blog.freepeople.com/" class="logo free"><img src="assets/img/free.svg"></a>
+				<a href="http://www.theknot.com/" class="logo knot"><img src="assets/img/knot.svg"></a>
+				<a href="http://greenweddingshoes.com/" class="logo green"><img src="assets/img/green.svg"></a>
+				<a href="http://www.weddingchicks.com/" class="logo chicks"><img src="assets/img/chicks.svg"></a>
+				<a href="http://www.couturecolorado.com/" class="logo couture"><img src="assets/img/couture.svg"></a>
+				<a href="http://onefabday.com/" class="logo fab"><img src="assets/img/fab.svg"></a>
+				<a href="http://www.mywedding.com/" class="logo mywedding"><img src="assets/img/mywedding.svg"></a>
+				<a href="http://www.weddingwire.com/" class="logo weddingwire"><img src="assets/img/weddingwire.svg"></a>
+				<a href="http://bridalmusings.com/" class="logo bridal"><img src="assets/img/bridal.svg"></a>
 			</section>
 		</div>
 

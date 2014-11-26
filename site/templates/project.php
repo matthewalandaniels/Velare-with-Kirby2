@@ -26,7 +26,7 @@
 		<div class="center_wrapper">
 			<section class="project_info">
 				<div class="description"><?php echo kirbytext($page->description()) ?></div>
-				<p class="credits"><?php echo multiline($page->credits()) ?></p>
+				<div class="credits"><?php echo kirbytext($page->credits()) ?></div>
 			</section>
 		</div>
 		

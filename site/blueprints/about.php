@@ -17,4 +17,7 @@ fields:
   about_text:
     label: About Section Text
     type: textarea
+  featured_section_title:
+    label: Featured Section Title
+    type: text
 
