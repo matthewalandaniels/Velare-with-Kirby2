@@ -731,8 +731,8 @@ section {
 .locations .pin {
   border-radius: 100%;
   position: absolute;
-  width: 1em;
-  height: 1em;
+  width: 0.7em;
+  height: 0.7em;
   background: #b2dab9;
 }
 .logos {
@@ -766,7 +766,6 @@ section {
   width: 22.75%;
   margin-left: 0%;
   margin-right: 3%;
-  margin-bottom: 30px;
 }
 .logos .logo:nth-child(-n+5):before,
 .logos .logo:nth-child(-n+5):after {
@@ -1278,9 +1277,12 @@ section {
 }
 .pagination .newer {
   float: left;
+  width: 48%;
 }
 .pagination .older {
   float: right;
+  width: 48%;
+  text-align: right;
 }
 .pagination .arrow_newer {
   width: 18px;

@@ -52,16 +52,16 @@
 
 			<section class="logos">
 				<p class="section_title">Lorem Ipsum dolor</p>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
-				<a href="" class="logo smp"><img src="assets/img/smp_logo.svg"></a>
+				<a href="" class="logo martha"><img src="assets/img/martha.svg"></a>
+				<a href="" class="logo free"><img src="assets/img/free.svg"></a>
+				<a href="" class="logo knot"><img src="assets/img/knot.svg"></a>
+				<a href="" class="logo green"><img src="assets/img/green.svg"></a>
+				<a href="" class="logo chicks"><img src="assets/img/chicks.svg"></a>
+				<a href="" class="logo couture"><img src="assets/img/couture.svg"></a>
+				<a href="" class="logo fab"><img src="assets/img/fab.svg"></a>
+				<a href="" class="logo mywedding"><img src="assets/img/mywedding.svg"></a>
+				<a href="" class="logo weddingwire"><img src="assets/img/weddingwire.svg"></a>
+				<a href="" class="logo bridal"><img src="assets/img/bridal.svg"></a>
 			</section>
 		</div>
 

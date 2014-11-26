@@ -410,8 +410,8 @@ grey_block()
 	.pin
 		border-radius: 100%
 		position: absolute
-		width: 1em
-		height: 1em
+		width: .7em
+		height: .7em
 		background: green
 
 .logos
@@ -420,7 +420,7 @@ grey_block()
 		col(1/6)
 	.logo:nth-child(-n+5)
 		col(1/4)
-		margin-bottom: quarter
+		//margin-bottom: quarter
 	.logo:nth-child(5)
 		margin-right: 0
 
@@ -619,10 +619,13 @@ grey_block()
 	text-transform: uppercase
 	.newer
 		float: left
+		width: 48%
 	.older
 		float: right
+		width: 48%
+		text-align: right
 	.arrow_newer
-		width:18px
+		width: 18px
 		margin-right: 15px
 		transform: rotate(180deg)
 	.arrow_older
