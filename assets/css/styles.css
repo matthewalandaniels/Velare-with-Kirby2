@@ -237,7 +237,6 @@ section {
   color: #fff;
   border: 1px solid #fff;
   text-transform: uppercase;
-  overflow: hidden;
   z-index: 1;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
@@ -279,9 +278,9 @@ section {
   border-right: 1px solid #fff;
   display: inline;
   margin: 0 35px 0 20px;
-  padding: 42px 0;
+  padding: 33px 0;
   position: relative;
-  top: -5px;
+  top: -3px;
 }
 .home_hero_button a:hover {
   color: #fff;
