@@ -3,15 +3,24 @@
 @import 'variables.styl'
 @import 'typography.styl'
 
-@media (max-width: 1200px)
+@media (max-width: 2200px)
 	.home_hero
+		background-size: 100% !important
 		.vid_bg
-			max-width: none
-			height: 100%
-	
+			position: absolute
+			max-width: 100%
+			top: 0
+			right: 0
+
+@media (max-width: 1200px)
+
 	.home_hero
 		background-size: auto 100% !important
 		background-position: top right !important
+		.vid_bg
+			max-width: none
+			width: auto
+			height: 100%
 
 	.newsletter_form
 		letter-spacing: .1em
