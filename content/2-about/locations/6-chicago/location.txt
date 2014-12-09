@@ -1,0 +1,9 @@
+Title: Chicago
+
+----
+
+Top: 38.4
+
+----
+
+Left: 23.5

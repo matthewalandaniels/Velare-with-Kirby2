@@ -1,0 +1,9 @@
+Title: Kansas City
+
+----
+
+Top: 42
+
+----
+
+Left: 22.5

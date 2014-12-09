@@ -1,0 +1,9 @@
+Title: Denver
+
+----
+
+Top: 41
+
+----
+
+Left: 19

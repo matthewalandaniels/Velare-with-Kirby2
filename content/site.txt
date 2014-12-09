@@ -14,27 +14,15 @@ Copyright: Copyright © Velare 2014 All Rights Reserved
 
 ----
 
-Email: hello@velare.tv
-
-----
-
-Phone: (888) 555-1234
-
-----
-
-Contact-text: Boop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-
-----
-
 Newsletter-title: Velare Newsletter
 
 ----
 
-Newsletter-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrudquis
+Newsletter-text: Stay in touch with us for the latest news, films and more.
 
 ----
 
-Twitter-link: https://twitter.com/velarecinema
+Twitter-link: https://twitter.com/velare
 
 ----
 

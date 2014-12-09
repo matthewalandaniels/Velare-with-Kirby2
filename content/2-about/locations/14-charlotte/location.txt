@@ -1,0 +1,9 @@
+Title: Charlotte
+
+----
+
+Top: 43
+
+----
+
+Left: 25.5

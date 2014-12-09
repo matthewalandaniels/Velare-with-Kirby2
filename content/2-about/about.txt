@@ -2,18 +2,20 @@ Title: About
 
 ----
 
-Hero-title: Get To Know Velare test
+Hero-title: Get To Know Velare
 
 ----
 
-About-headline: A pithy sentence about how awesome Velare is.
+About-headline: OUR STORY
 
 ----
 
-About-text: *BOOP!* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+About-text: In early 2011 Velare was born, but long before then it existed in the form of hobby and passion. Today we are still guided by that passion and don't do this just as a way to get by or punch the clock. We have an intense love for people and their stories, for moving pictures and for music. The emotions that can be conveyed by combining these elements keeps us excited with each new film. 
 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader  or at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+We decided early on that we wanted to infuse art and beauty in to wedding films and to take large risks of potential failure by making films we felt had true meaning and emotion - even if it meant going against the tide of the wedding industry and the status quo for wedding cinematography. It's what we still strive to do here every day: take chances and do what feels right in our hearts. 
+
+Every couple is unique, every location is different and every day is new. We strive to make honest films that retain a sense of newness that will stand the test of time.
 
 ----
 
-Featured-section-title: Lorem Ipsum dolor Boop!
+Featured-section-title: WHERE WE'VE BEEN FEATURED

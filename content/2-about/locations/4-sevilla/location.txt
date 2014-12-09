@@ -1,9 +1,0 @@
-Title: Sevilla
-
-----
-
-Top: 40
-
-----
-
-Left: 46

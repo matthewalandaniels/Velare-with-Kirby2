@@ -1,0 +1,9 @@
+Title: Lake Tahoe
+
+----
+
+Top: 40
+
+----
+
+Left: 14.5

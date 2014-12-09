@@ -2,8 +2,8 @@ Title: Locations
 
 ----
 
-Locations-headline: LOREM IPSUM DOLOR
+Locations-headline: WHERE WE'VE BEEN
 
 ----
 
-Locations-text: It is a long established fact that a reader or at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+Locations-text: For us, home is Boulder, Colorado, but anywhere in the world is just a flight away.

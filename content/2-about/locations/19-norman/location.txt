@@ -1,0 +1,9 @@
+Title: Norman
+
+----
+
+Top: 43
+
+----
+
+Left: 21.5

@@ -1,0 +1,9 @@
+Title: Puerta Vallarta
+
+----
+
+Top: 52.5
+
+----
+
+Left: 18.7

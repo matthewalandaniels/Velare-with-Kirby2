@@ -1,0 +1,9 @@
+Title: Tamarindo
+
+----
+
+Top: 58.5
+
+----
+
+Left: 24.5
